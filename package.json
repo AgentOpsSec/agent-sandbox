@@ -1,0 +1,45 @@
+{
+  "name": "@agentopssec/agent-sandbox",
+  "version": "1.0.0",
+  "description": "Run AI coding agents in a temporary local sandbox.",
+  "type": "module",
+  "homepage": "https://AgentOpsSec.com/projects/agent-sandbox",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AgentOpsSec/agent-sandbox.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AgentOpsSec/agent-sandbox/issues"
+  },
+  "bin": {
+    "agent-sandbox": "./bin/agent-sandbox.js"
+  },
+  "files": [
+    "LICENSE",
+    "bin",
+    "src",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check bin/agent-sandbox.js && node --test"
+  },
+  "keywords": [
+    "agent",
+    "sandbox",
+    "security",
+    "cli"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": {
+    "name": "Aunt Gladys Nephew",
+    "url": "https://auntgladysnephew.com"
+  }
+}

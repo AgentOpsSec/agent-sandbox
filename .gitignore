@@ -1,0 +1,19 @@
+# Node
+node_modules/
+coverage/
+dist/
+
+# Logs and temp
+*.log
+*.tmp
+
+# OS and editor
+.DS_Store
+.idea/
+.vscode/
+
+# npm packing artifacts
+*.tgz
+
+# Local runtime state (created when this tool is run in a project)
+.agent-sandbox/
