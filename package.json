@@ -12,7 +12,7 @@
     "url": "https://github.com/AgentOpsSec/agent-sandbox/issues"
   },
   "bin": {
-    "agent-sandbox": "./bin/agent-sandbox.js"
+    "agent-sandbox": "bin/agent-sandbox.js"
   },
   "files": [
     "LICENSE",
