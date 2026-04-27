@@ -1,5 +1,7 @@
 # Agent Sandbox
 
+![NPM Downloads](https://img.shields.io/npm/dw/%40agentopssec%2Fagent-sandbox)
+
 **Run AI coding agents in a restricted local sandbox.**
 
 Agent Sandbox wraps AI coding agent commands in a temporary local
